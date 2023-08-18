@@ -8,15 +8,14 @@ const Header = () => {
             <div className="container">
                 <div className={'header'}>
                     <div className={'logo'}>
-                        <h1>Chef-BaQuna</h1>
+                        <Link className={'header-logo'} to={'/'}><h1>Chef-BaQuna</h1></Link>
                     </div>
                     <div className={'navs'}>
-                        <InputBtn/>
-                        <nav >
+                        <nav>
                             <Link className={'linki'} to={'/'}>Home</Link>
                             <Link className={'linki'} to={'/about'}>About</Link>
                         </nav>
-
+                        <InputBtn/>
                     </div>
                 </div>
             </div>

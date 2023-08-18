@@ -32,10 +32,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
     padding: 10px;
 }
 
+.header-logo {
+
+    text-decoration: none;
+}
 
 .header h1 {
     color: beige;
@@ -47,7 +50,7 @@ header {
 .navs {
     display: flex;
     gap: 10px;
-  align-items: center;
+    align-items: center;
 
 }
 
@@ -141,6 +144,12 @@ header {
     width: 360px;
 }
 
+.meal-info h2 {
+    color: #464942;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
 .img-ing {
     width: 130px;
     height: 130px;
@@ -151,11 +160,12 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
-.ingredient{
+
+.ingredient {
     text-align: center;
 }
 
-.youtube{
+.youtube {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,10 +205,13 @@ footer {
 }
 
 .card {
+    display: flex;
+    justify-content: center;
     border: none;
     background-color: beige;
 }
 
-.card p {
+.card h3 {
     font-size: 18px;
+    text-align: center;
 }

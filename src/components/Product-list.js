@@ -6,11 +6,11 @@ const ProductList = ({meals}) => {
         <div>
             <div className={'row'}>
                 {
-                    meals.map(meal => {
+                    meals.map((meal, idx) => {
                         return (
-                            <div className={'col-3'}>
+                            <div className={'col-3'} key={idx}>
                                 <Link className={'link'} to={`/meal/${meal.idMeal}`}>
-                                    <div className={"box"} key={meal.idMeal}>
+                                    <div className={"box"}>
                                         <div className={'img-wrapper'}>
                                             <img src={meal.strMealThumb} alt={meal.strMeal}/>
                                         </div>

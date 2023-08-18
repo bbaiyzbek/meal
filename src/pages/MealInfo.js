@@ -30,61 +30,84 @@ const MealInfo = () => {
                             <img className={'meal-image'} src={meal.strMealThumb} alt={meal.strMeal}/>
                         </div>
                         <div className={'row'}>
-                            <div className="col-4">
-                                <div className="card">
-                                    <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient1}`}>
-                                        <img className={'img-ing'} src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient1}.png`} alt=""/>
-                                        <div>{meal.strIngredient1}</div>
-                                    </Link>
+                            {meal.strIngredient1 &&
+                                <div className="col-4">
+                                    <div className="card">
+                                        <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient1}`}>
+                                            <img className={'img-ing'}
+                                                 src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient1}.png`}
+                                                 alt=""/>
+                                            <h3>{meal.strIngredient1}</h3>
+                                        </Link>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-4">
-                                <div className="card">
-                                    <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient2}`}>
-                                        <img className={'img-ing'} src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient2}.png`} alt=""/>
-                                        <div>{meal.strIngredient2}</div>
-                                    </Link>
+                            }
+                            {meal.strIngredient2 &&
+                                <div className="col-4">
+                                    <div className="card">
+                                        <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient2}`}>
+                                            <img className={'img-ing'}
+                                                 src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient2}.png`}
+                                                 alt=""/>
+                                            <h3>{meal.strIngredient2}</h3>
+                                        </Link>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-4">
-                                <div className="card">
-                                    <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient3}`}>
-                                        <img className={'img-ing'} src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient3}.png`} alt=""/>
-                                         <div>{meal.strIngredient3}</div>
-                                    </Link>
+                            }
+                            {meal.strIngredient3 &&
+                                <div className="col-4">
+                                    <div className="card">
+                                        <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient3}`}>
+                                            <img className={'img-ing'}
+                                                 src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient3}.png`}
+                                                 alt=""/>
+                                            <h3>{meal.strIngredient3}</h3>
+                                        </Link>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-4">
-                                <div className="card">
-                                    <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient4}`}>
-                                        <img className={'img-ing'} src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient4}.png`} alt=""/>
-                                        <div>{meal.strIngredient4}</div>
-                                    </Link>
+                            }
+                            {meal.strIngredient4 &&
+                                <div className="col-4">
+                                    <div className="card">
+                                        <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient4}`}>
+                                            <img className={'img-ing'}
+                                                 src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient4}.png`}
+                                                 alt=""/>
+                                            <h3>{meal.strIngredient4}</h3>
+                                        </Link>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-4">
-                                <div className="card">
-                                    <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient5}`}>
-                                        <img className={'img-ing'} src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient5}.png`} alt=""/>
-                                        <div>{meal.strIngredient5}</div>
-                                    </Link>
+                            }
+                            {meal.strIngredient5 &&
+                                <div className="col-4">
+                                    <div className="card">
+                                        <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient5}`}>
+                                            <img className={'img-ing'}
+                                                 src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient5}.png`}
+                                                 alt=""/>
+                                            <h3>{meal.strIngredient5}</h3>
+                                        </Link>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-4">
-                                <div className="card">
-                                    <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient6}`}>
-                                        <img className={'img-ing'} src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient6}.png`} alt=""/>
-                                        <div>{meal.strIngredient6}</div>
-                                    </Link>
+                            }
+                            {meal.strIngredient6 &&
+                                <div className="col-4">
+                                    <div className="card">
+                                        <Link className={'ing-link'} to={`/ingredient/${meal.strIngredient6}`}>
+                                            <img className={'img-ing'}
+                                                 src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient6}.png`}
+                                                 alt=""/>
+                                            <h3>{meal.strIngredient6}</h3>
+                                        </Link>
+                                    </div>
                                 </div>
-                            </div>
+                            }
                         </div>
                     </div>
                     <div className={'info'}>
                         <p>{meal.strInstructions}</p>
                     </div>
                     <div className={'youtube'}>
-
                         <iframe width={'550'} height={'315'} title={meal.strMeal}
                                 src={`https://www.youtube.com/embed/${youtube}`}></iframe>
                     </div>
