@@ -6,10 +6,10 @@ const AboutPage = () => {
     return (
         <div>
             <Header/>
-            <div className="container">
+            <div className="container" style={{minHeight: '100vh'}}>
                 <h2>ABOUT PAGE</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
+                    dor expedita, harum ipsa ipsam perspiciatis quis reiciendis!
                     Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
                     nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
                     Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
@@ -20,39 +20,7 @@ const AboutPage = () => {
                     dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
                     Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
                     nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto delectus dicta,
-                    dignissimos dolores eligendi error expedita, harum ipsa ipsam perspiciatis quis reiciendis!
-                    Commodi dolore dolorem doloribus enim, eos esse explicabo illo illum necessitatibus
-                    nihil nobis, perspiciatis quasi reiciendis sapiente, sed ut voluptatibus.
-                    Nemo nostrum similique suscipit. Ea, officia</p>
+                    Nemo nostrum similique suscipit. Ea, officia.</p>
             </div>
             <Footer/>
         </div>

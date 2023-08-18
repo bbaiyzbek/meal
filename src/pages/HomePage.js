@@ -15,7 +15,7 @@ const HomePage = () => {
     return (
         <div>
             <Header/>
-            <div className="container">
+            <div className="container" style={{minHeight: '100vh'}}>
                 <ProductList meals={meals}/>
             </div>
             <Footer/>

@@ -21,7 +21,7 @@ const MealInfo = () => {
     return (
         <div>
             <Header/>
-            <div className="container">
+            <div className="container" style={{minHeight: '100vh'}}>
                 <button className={'btnmeal'} onClick={() => navigate('/')}>Back</button>
                 <div>
                     <div className={'meal-info'}>

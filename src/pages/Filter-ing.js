@@ -18,8 +18,16 @@ const FilterIng = () => {
     return (
         <div>
             <Header/>
-            <div className={'container'}>
+            <div className={'container'} style={{minHeight: '100vh'}}>
                 <button className={'btnmeal'} onClick={() => navigate(-1)}>Back</button>
+                <div className={'filter-ing'}>
+                    <div className="filter-card">
+                        <div><h2>{params.ing}</h2></div>
+                        <div><img
+                            src={`https://www.themealdb.com/images/ingredients/${params.ing}.png`}
+                            alt=""/></div>
+                    </div>
+                </div>
                 <ProductList meals={meals}/>
             </div>
             <Footer/>

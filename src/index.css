@@ -19,6 +19,7 @@ code {
     box-sizing: border-box;
 }
 
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -36,7 +37,6 @@ header {
 }
 
 .header-logo {
-
     text-decoration: none;
 }
 
@@ -83,34 +83,31 @@ header {
 
 .home-desc {
     color: #464942;
-
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
 }
 
 .col-3 {
     width: 25%;
     padding: 10px;
-
 }
 
 .box {
-    border: 1px solid;
+    border: 1px solid #464942;
     border-radius: 5px;
     padding: 15px;
     height: 100%;
     width: 100%;
     background-color: #464942;
+    box-shadow: 0 2px 8px 0 rgba(34, 60, 80, 0.2);
 }
 
 .box h6 {
     font-size: 16px;
     color: beige;
-
 }
 
 .link {
@@ -119,10 +116,8 @@ header {
     font-size: 18px;
 }
 
-
 .img-wrapper img {
     width: 100%;
-
 }
 
 .meal-info {
@@ -138,10 +133,13 @@ header {
     color: white;
     padding: 5px 15px;
     cursor: pointer;
+    margin-left: 12px;
+    margin-top: 15px;
 }
 
 .meal-image {
     width: 360px;
+    box-shadow: 0 2px 8px 0 rgba(34, 60, 80, 0.46);
 }
 
 .meal-info h2 {
@@ -171,6 +169,34 @@ header {
     align-items: center;
     margin-top: 20px;
     flex-direction: column;
+}
+
+.filter-ing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-ing img {
+    width: 200px;
+}
+
+.filter-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #464942;
+    border-radius: 3px;
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 2px 8px 0 rgba(34, 60, 80, 0.2);
+    margin-bottom: 20px;
+}
+
+.filter-card h2 {
+    color: #464942;
 }
 
 footer {
